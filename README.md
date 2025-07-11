@@ -1,11 +1,12 @@
 ###  설정
-* 아래 버전을 권장드립니다.
-  `Python 3.11`, `TensorFlow 2.15.0`
 
+* 아래의 라이브러리를 설치 해 주세요
 ```bash
 pip install tensorflow
 pip install streamlit numpy pandas joblib scikit-learn tqdm
 ```
+* 아래 버전을 권장드립니다.    
+  `Python 3.11`, `TensorFlow 2.15.0`
 
 ### 실행 방법
 
