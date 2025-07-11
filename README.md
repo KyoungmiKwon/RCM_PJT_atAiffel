@@ -26,6 +26,34 @@ streamlit run show_st2.py
 | 10    | 1e-4  | 0.4     | 2048  | 16     | 0.66202   | 0.63016    |
 | 20    | 1e-4  | 0.4     | 1024  | 16     | 0.66285   | 0.63103  |
 
+### streamlit 실행을 위한 폴더 구성
+
+autoint
+	│  autoint.py
+  │  autointmlp.py
+	│  show_st.py
+  │  show_st2.py
+	│
+	├─ data
+	│    │  field_dims.npy
+	│    │  label_encoders.pkl
+ 	│    │  field_dims_mlp.npy
+	│    │  autoIntMLP_label_encoders.pkl
+	│    │
+	│    └─ ml-1m
+	│         │  movies_prepro.csv
+	│         │  ratings_prepro.csv (용량제한으로 인해 업로드 불가)
+	│         │  users_prepro.csv
+	│
+	├─ model
+	│    autoInt_model_weights.h5
+ 	│    autoIntMLP_model_weights.h5
+	│
+	└─ __pycache__
+	      autoint.cpython-311.pyc
+	      show_st.cpython-311.pyc
+
+
 ### streamlit 실행 결과
 
 ![실행화면](https://github.com/KyoungmiKwon/RCM_PJT_atAiffel/blob/7d187878efdb98dfd5cd0e6cd01b654c6f225960/Screenshot%202025-07-11%20at%2023.06.27.png)
