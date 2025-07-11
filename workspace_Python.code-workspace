@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "rcm_node_aiffel",
+			"path": "reference/rcm_node_aiffel"
+		}
+	],
+	"settings": {}
+}
