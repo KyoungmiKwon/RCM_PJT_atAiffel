@@ -1,7 +1,5 @@
-## 가상환경 설정
-
-* 새로운 가상환경을 생성한 뒤, 아래 버전으로 진행해 주세요.
-  (권장: `Python 3.11`, `TensorFlow 2.15.0`)
+* 아래 버전을 권장합니다.
+  `Python 3.11`, `TensorFlow 2.15.0`
 
 ```bash
 pip install tensorflow
