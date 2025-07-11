@@ -25,3 +25,7 @@ streamlit run show_st2.py
 | 5     | 1e-4  | 0.0     | 2048  | 16     |  0.66162 | 0.63048  |
 | 10    | 1e-4  | 0.4     | 2048  | 16     | 0.66202   | 0.63016    |
 | 20    | 1e-4  | 0.4     | 1024  | 16     | 0.66285   | 0.63103  |
+
+### streamlit 실행 결과
+
+![실행화면](https://github.com/KyoungmiKwon/RCM_PJT_atAiffel/blob/7d187878efdb98dfd5cd0e6cd01b654c6f225960/Screenshot%202025-07-11%20at%2023.06.27.png)
