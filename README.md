@@ -10,6 +10,7 @@ pip install streamlit numpy pandas joblib scikit-learn tqdm
 
 ### 실행 방법
 
+해당 파일이 있는 폴더 안에서 다음 명령어를 실행 하세요.    
 ```bash
 streamlit run show_st2.py
 ```
