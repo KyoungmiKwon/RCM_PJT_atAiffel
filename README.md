@@ -27,12 +27,12 @@ streamlit run show_st2.py
 | 20    | 1e-4  | 0.4     | 1024  | 16     | 0.66285   | 0.63103  |
 
 ### streamlit 실행을 위한 폴더 구성
-
-autoint
+<pre><code>```
+    autoint
 	│  autoint.py
-  │  autointmlp.py
+        │  autointmlp.py
 	│  show_st.py
-  │  show_st2.py
+        │  show_st2.py
 	│
 	├─ data
 	│    │  field_dims.npy
@@ -52,7 +52,7 @@ autoint
 	└─ __pycache__
 	      autoint.cpython-311.pyc
 	      show_st.cpython-311.pyc
-
+``` </code></pre>
 
 ### streamlit 실행 결과
 
